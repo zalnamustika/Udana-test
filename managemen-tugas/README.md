@@ -1,4 +1,4 @@
-**Installation and Setup** (https://github.com/zalnamustika/Udana-test/blob/main/managemen-tugas/installation%20and%20setup.txt)
+**Installation and Setup** [](https://github.com/zalnamustika/Udana-test/blob/main/managemen-tugas/installation%20and%20setup.txt)
 1. Clone repository dari Github
 2. Jalankan 'composer install'
 3. Setup 'cp env.example .env'
