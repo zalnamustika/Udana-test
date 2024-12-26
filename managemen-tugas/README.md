@@ -9,7 +9,7 @@
 8. Jalankan 'php artisan jwt:secret'
    
 **Endpoint**
-1. Create
+1. Create <br>
    - Login
      URL : http://localhost:8000/api/login <br>
      Method : POST
@@ -21,25 +21,25 @@
      ![headers](https://github.com/user-attachments/assets/0a40eead-99da-4ee8-b81f-3fc10fa93439)
      ![create data](https://github.com/user-attachments/assets/f8726fa6-88b9-499f-adf7-d6d65cadc077)
 
-2. Show
+2. Show <br>
    URL : http://localhost:8000/api/tasks <br>
    Method : GET
    ![headers](https://github.com/user-attachments/assets/0a40eead-99da-4ee8-b81f-3fc10fa93439)
    ![show data](https://github.com/user-attachments/assets/e051d9e5-8463-4185-9329-a700c2fa77ac)
 
-4. Show 1 Data
+4. Show 1 Data <br>
    URL : http://localhost:8000/api/tasks/{id} <br>
    Method : PUT
    ![headers](https://github.com/user-attachments/assets/0a40eead-99da-4ee8-b81f-3fc10fa93439)
    ![show 1 data](https://github.com/user-attachments/assets/56056bee-371c-4ca6-bc19-73a6c6fcd679)
 
-6. Update
+6. Update <br>
    URL : http://localhost:8000/api/tasks/{id} <br>
    Method : PUT
    ![headers](https://github.com/user-attachments/assets/0a40eead-99da-4ee8-b81f-3fc10fa93439)
    ![update data](https://github.com/user-attachments/assets/0a21b920-b6f5-4fcc-ba17-63bd3101e5a0)
 
-7. Delete
+7. Delete <br>
    URL : http://localhost:8000/api/tasks/{id} <br>
    Method : DELETE
    ![headers](https://github.com/user-attachments/assets/0a40eead-99da-4ee8-b81f-3fc10fa93439)
