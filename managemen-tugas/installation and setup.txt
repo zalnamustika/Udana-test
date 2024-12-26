@@ -1,0 +1,14 @@
+Installation and Setup
+-----------------------
+
+1. Clone repository dari Github
+2. Jalankan 'composer install'
+3. Setup 'cp env.example .env'
+4. Jalankan 'php artisan key:genarate'
+5. ubah nama database di '.env'
+6. Jalankan 'php artisan migrate'
+7. Jalankan 'php artisan migrate:fresh --seed'
+7. Jalankan 'php artisan jwt:secret'
+
+dukumentasi endpoint API ada pada Readme.md
+
