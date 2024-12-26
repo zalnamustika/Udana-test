@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Task;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Validator;
 
 class TaskController extends Controller
@@ -34,7 +35,9 @@ class TaskController extends Controller
         return response()->json($task);
     }
 
-    public function store(Request $request){
+    public function store(Request $request)
+    {
+        Log::info('User terautentikasi: ' . json_encode(auth()->user()));
         $validator = Validator::make($request->all(), [
             'title' => 'nullable|string|max:255',
             'description' => 'nullable|string',
