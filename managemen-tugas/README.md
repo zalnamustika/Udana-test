@@ -10,12 +10,12 @@
    
 **Endpoint**
 1. Create <br>
-   - Login
+   - Login <br>
      URL : http://localhost:8000/api/login <br>
      Method : POST
      ![login](https://github.com/user-attachments/assets/8e564338-5dd0-4e4e-beb8-ce829dcfdc6f)
 
-   - Tambah Data
+   - Tambah Data <br>
      URL : http://localhost:8000/api/tasks <br>
      Method : POST
      ![headers](https://github.com/user-attachments/assets/0a40eead-99da-4ee8-b81f-3fc10fa93439)
